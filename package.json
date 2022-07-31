@@ -1,0 +1,23 @@
+{
+  "name": "test-vite-type",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "backend": "json-server --port 3001 --watch db/db.json"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "jsonserver": "^0.1.6",
+    "vue": "^3.2.25",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9",
+    "vue-tsc": "^0.34.7"
+  }
+}
