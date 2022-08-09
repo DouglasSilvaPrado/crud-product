@@ -1,11 +1,16 @@
 <template>
+    <Caraousel />
+     
     <div class="container my-5">
-        <FormProduct />
+        <GridCard />
     </div>
 </template>
 
 <script setup lang="ts">
-    import FormProduct from "../components/FormProduct.vue";
+import Caraousel from "../components/layout/Caraousel.vue";
+import GridCard from "../components/layout/GridCard.vue";
+
+
 </script>
 
 <style lang="scss" scoped>
